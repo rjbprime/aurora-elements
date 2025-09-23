@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>The Book of Fantasia Campaign Guide 5e14 / 5e24 </name>
+		<description>All indices managed by RJBPrimal.</description>
+		<author url="https://github.com/rjbprime/aurora-elements">RJBPrimal - Aurora Elements</author>
+		<update version="0.0.1">
+			<file name="BOF1424.index" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/BOF1424.index" />
+		</update>
+	</info>
+	<files>
+		<file name="BOF14.index" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/BOF14.index" />
+		<file name="BOF24.index" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/BOF24.index" />
+	</files>
+</index>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source-bof-2014.xml" url="" />
+		</update>
+	</info>
+	<element name="The Book of Fantasia Campaign Guide 2014" type="Source" source="Core" id="ID_BOF14_SOURCE">
+		<description>
+			<p><strong>House rules for DM RJBPrime's Campaign</strong></p>
+			<p>The <i>Book of Fantasia</i> is the campaign guide for DM RJBPrime's players. It contains rules for character creation, custom content, and much more. Use this book, in conjunction with other D&amp;D 5th edition sources, to create exciting characters from among the most iconic D&amp;D races and classes.</p>
+			<p>Dungeons &amp; Dragons immerses you in a world of adventure. Explore ancient ruins and deadly dungeons. Battle monsters while searching for legendary treasures. Gain experience and power as you trek across uncharted lands with your companions.</p>
+			<p>The world needs heroes. Will you answer the call?</p>
+		</description>
+		<setters>
+			<set name="abbreviation">BOF14</set>
+			<set name="url"></set>
+			<set name="image">https://raw.githack.com/rjbprime/aurora-elements/7683fe8e4da6f0ecfab75b1e89cec6f4a50f734b/The%20Book%20of%20Fantasia%20-%205E%20-%202025%20Campaign%20-%20Cover.png</set>
+			<set name="errata"></set>
+			<set name="author" abbreviation="RJB" url="">RJBPrime</set>
+			<set name="homebrew">true</set>
+			<set name="release">20250216</set>
+		</setters>
+	</element>
+</elements>

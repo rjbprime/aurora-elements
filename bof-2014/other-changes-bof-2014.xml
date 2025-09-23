@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Other Campaign Houseruled Changes</name>
+        <author url="">RJBPrime</author>
+        <update version="0.0.1">
+            <file name="other-changes-bof-2014.xml" url="" />
+        </update>
+    </info>
+
+    <element name="Additional Feat at Level 1" type="Option" source="The Book of Fantasia Campaign Guide 2014" id="ID_CHRONOS HOMEBREW_OPTION_ADDITIONAL_FEAT_LEVEL_1">
+        <description>
+            <p>You may select an additional Feat at level 1.</p>
+        </description>
+        <setters>
+            <set name="short">You may select an additional Feat at level 1.</set>
+        </setters>
+         <rules>
+            <select type="Feat" name="Feat (Level 1)" />
+        </rules>
+    </element>
+
+    <element name="Revenant Blade (Book of Fantasia)" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_REVENANT_BLADE">
+        <requirements>!ID_WOTC_ERLW_FEAT_REVENANT_BLADE</requirements>
+        <description>
+            <p>You have trained with a master of the double blade and a measure of their skills have passed on to you. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity or Strength score by 1, to a maximum of 20.</li>
+                <li>While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.</li>
+                <li>A double-bladed scimitar has the finesse property when you wield it.</li>
+                <li>On your turn, when you use a bonus action to make a melee attack with the blade at the opposite end of the weapon, the weapon’s damage die for this attack increases to 2d4, instead of 1d4.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.
+            A double-bladed scimitar has the finesse property when you wield it.
+            On your turn, when you use a bonus action to make a melee attack with the blade at the opposite end of the weapon, the weapon’s damage die for this attack increases to 2d4, instead of 1d4.</description>
+        </sheet>
+        <rules> 
+            <stat name="ac:misc" value="1" equipped="[primary:double-bladed scimitar]" />
+            <select type="Ability Score Improvement" name="Revenant Blade (Book of Fantasia)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+        </rules>
+    </element>
+
+    <element name="Revenant Blade" type="Feat" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_FEAT_REVENANT_BLADE">
+        <requirements>ID_RACE_ELF||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID_ELF,!ID_BOF14_FEAT_REVENANT_BLADE</requirements>
+        <prerequisite>Elf</prerequisite>
+        <description>
+            <p><em>Prerequisite: Elf</em></p>
+            <p>You are descended from a master of the double-bladed scimitar, and some of that mastery has passed on to you. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity or Strength score by 1, to a maximum of 20.</li>
+                <li>While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.</li>
+                <li>A double-bladed scimitar has the finesse property when you wield it.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.
+            A double-bladed scimitar has the finesse property when you wield it.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase, Revenant Blade" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+            <stat name="ac:misc" value="1" equipped="[primary:double-bladed scimitar]" />
+            <!-- todo: runtime rule property additions -->
+        </rules>
+    </element>  
+
+    <element name="Dwarven Fortitude (Book of Fantasia)" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_DWARVEN_FORTITUDE">
+        <requirements>!ID_WOTC_XGTE_FEAT_DWARVEN_FORTITUDE</requirements>
+        <description>
+            <p>You have the blood of dwarf heroes flowing through your veins. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Constitution score by 1, to a maximum of 20.</li>
+                <li>Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).</li>
+            </ul>
+        </description>
+        <sheet action="Dodge">
+            <description>You can spend one Hit Die to heal yourself. Roll the die, add {{constitution:modifier}}, and regain a number of hit points equal to the total (minimum of 1).</description>
+        </sheet>
+        <rules>
+            <stat name="constitution" value="1" />
+        </rules>
+    </element>
+
+    <element name="Dwarven Fortitude" type="Feat" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_FEAT_DWARVEN_FORTITUDE">
+        <prerequisite>Dwarf</prerequisite>
+        <requirements>ID_SRD_RACE_DWARF||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_GRANT_RACE_DWARF,!ID_BOF14_FEAT_DWARVEN_FORTITUDE</requirements>
+        <description>
+            <p><i>Prerequisite: Dwarf</i></p>
+            <p>You have the blood of dwarf heroes flowing through your veins. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Constitution score by 1, to a maximum of 20.</li>
+                <li>Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).</li>
+            </ul>
+        </description>
+        <sheet action="Dodge">
+            <description>You can spend one Hit Die to heal yourself. Roll the die, add {{constitution:modifier}}, and regain a number of hit points equal to the total (minimum of 1).</description>
+        </sheet>
+        <rules>
+            <stat name="constitution" value="1" />
+        </rules>
+    </element>
+
+    <element name="Elven Accuracy (Book of Fantasia)" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_ELVEN_ACCURACY">
+        <requirements>!ID_WOTC_XGTE_FEAT_ELVEN_ACCURACY</requirements>
+        <description>
+            <p>The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+                <li>Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement (Elven Accuracy)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
+        </rules>
+    </element>
+
+    <element name="Elven Accuracy" type="Feat" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_FEAT_ELVEN_ACCURACY">
+        <prerequisite>Elf or half-elf</prerequisite>
+        <requirements>ID_RACE_ELF||ID_RACE_HALFELF||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_GRANT_RACE_ELF||ID_INTERNAL_GRANT_RACE_HALF_ELF,!ID_BOF14_FEAT_ELVEN_ACCURACY</requirements>
+        <description>
+            <p><i>Prerequisite: Elf or half-elf</i></p>
+            <p>The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+                <li>Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement (Elven Accuracy)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
+        </rules>
+    </element>
+
+    <element name="Fade Away (Book of Fantasia)" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_FADE_AWAY">
+        <requirements>!ID_WOTC_XGTE_FEAT_FADE_AWAY</requirements>
+        <description>
+            <p>Your people are Clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity or Intelligence score by l, to a maximum of 20.</li>
+                <li>Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short or long rest.</li>
+            </ul>
+        </description>
+        <sheet action="Reaction" usage="1/Short Rest">
+            <description>Immediately after you take damage, you can magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement (Fade Away)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE" />
+        </rules>
+    </element>
+
+    <element name="Fade Away" type="Feat" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_FEAT_FADE_AWAY">
+        <prerequisite>Gnome</prerequisite>
+        <requirements>ID_RACE_GNOME||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_GRANT_RACE_GNOME,!ID_BOF14_FEAT_FADE_AWAY</requirements>
+        <description>
+            <p><i>Prerequisite: Gnome</i></p>
+            <p>Your people are Clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity or Intelligence score by l, to a maximum of 20.</li>
+                <li>Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short or long rest.</li>
+            </ul>
+        </description>
+        <sheet action="Reaction" usage="1/Short Rest">
+            <description>Immediately after you take damage, you can magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement (Fade Away)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE" />
+        </rules>
+    </element>
+
+    <element name="Fey Teleportation (Book of Fantasia)" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_FEY_TELEPORTATION">
+        <requirements>!ID_WOTC_XGTE_FEAT_FEY_TELEPORTATION</requirements>
+        <description>
+            <p>Your study of high elven lore has unlocked fey power that few other elves possess, except your eladrin cousins. Drawing on your fey ancestry, you can momentarily stride through the Feywild to shorten your path from one place to another. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Intelligence or Charisma score by 1, to a maximum of 20.</li>
+                <li>You learn to speak, read, and write Sylvan.</li>
+                <li>You learn the misty step spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell.</li>
+            </ul>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>You can cast the misty step spell without expending a spell slot. Intelligence is your spellcasting ability for this spell.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement (Fey Teleportation)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CHARISMA" />
+            <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+        </rules>
+    </element>
+
+    <element name="Fey Teleportation" type="Feat" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_FEAT_FEY_TELEPORTATION">
+        <prerequisite>Elf (high)</prerequisite>
+        <requirements>ID_SUB_RACE_HIGH_ELF||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_GRANT_RACE_HIGH_ELF,!ID_BOF14_FEAT_FEY_TELEPORTATION</requirements>
+        <description>
+            <p><i>Prerequisite: Elf (high)</i></p>
+            <p>Your study of high elven lore has unlocked fey power that few other elves possess, except your eladrin cousins. Drawing on your fey ancestry, you can momentarily stride through the Feywild to shorten your path from one place to another. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Intelligence or Charisma score by 1, to a maximum of 20.</li>
+                <li>You learn to speak, read, and write Sylvan.</li>
+                <li>You learn the misty step spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell.</li>
+            </ul>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>You can cast the misty step spell without expending a spell slot. Intelligence is your spellcasting ability for this spell.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement (Fey Teleportation)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CHARISMA" />
+            <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+        </rules>
+    </element>
+
+    <element name="Flames of Phlegethos (Book of Fantasia)" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_FLAMES_OF_PHLEGETHOS">
+        <requirements>!ID_WOTC_XGTE_FEAT_FLAMES_OF_PHLEGETHOS</requirements>
+        <description>
+            <p>You learn to call on hellfire to serve your commands. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Intelligence or Charisma score by 1, to a maximum of 20.</li>
+                <li>When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.</li>
+                <li>Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, you must use the new roll. Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement (Flames of Phlegethos)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CHARISMA" />
+        </rules>
+    </element>
+
+    <element name="Flames of Phlegethos" type="Feat" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_FEAT_FLAMES_OF_PHLEGETHOS">
+        <prerequisite>Tiefling</prerequisite>
+        <requirements>ID_RACE_TIEFLING||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_GRANT_RACE_TIEFLING,!ID_BOF14_FEAT_FLAMES_OF_PHLEGETHOS</requirements>
+        <description>
+            <p><i>Prerequisite: Tiefling</i></p>
+            <p>You learn to call on hellfire to serve your commands. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Intelligence or Charisma score by 1, to a maximum of 20.</li>
+                <li>When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.</li>
+                <li>Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, you must use the new roll. Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement (Flames of Phlegethos)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CHARISMA" />
+        </rules>
+    </element>
+
+    <element name="Infernal Constitution (Book of Fantasia)" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_INFERNAL_CONSTITUTION">
+        <requirements>!ID_WOTC_XGTE_FEAT_INFERNAL_CONSTITUTION</requirements>
+        <description>
+            <p>Fiendish blood runs strong in you, unlocking a resilience akin to that possessed by some fiends. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Constitution score by l, to a maximum of 20.</li>
+                <li>You have resistance to cold damage and poison damage.</li>
+                <li>You have advantage on saving throws against being poisoned.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being poisoned.</description>
+        </sheet>
+        <rules>
+            <stat name="constitution" value="1" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+        </rules>
+    </element>
+
+    <element name="Infernal Constitution" type="Feat" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_FEAT_INFERNAL_CONSTITUTION">
+        <prerequisite>Tiefling</prerequisite>
+        <requirements>ID_RACE_TIEFLING||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_GRANT_RACE_TIEFLING,!ID_BOF14_FEAT_INFERNAL_CONSTITUTION</requirements>
+        <description>
+            <p><i>Prerequisite: Tiefling</i></p>
+            <p>Fiendish blood runs strong in you, unlocking a resilience akin to that possessed by some fiends. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Constitution score by l, to a maximum of 20.</li>
+                <li>You have resistance to cold damage and poison damage.</li>
+                <li>You have advantage on saving throws against being poisoned.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against being poisoned.</description>
+        </sheet>
+        <rules>
+            <stat name="constitution" value="1" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+        </rules>
+    </element>
+
+    <element name="Prodigy (Book of Fantasia)" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_PRODIGY">
+        <requirements>!ID_WOTC_XGTE_FEAT_PRODIGY</requirements>
+        <description>
+            <p>You have a knack for learning new things. You gain the following benefits:</p>
+            <ul>
+                <li>You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.</li>
+                <li>Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn’t already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</li>
+            </ul>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Skill Proficiency (Prodigy)" supports="Skill" />
+            <select type="Proficiency" name="Tool Proficiency (Prodigy)" supports="Tool" />
+            <select type="Language" name="Prodigy" supports="Standard||Exotic||Secret" />
+            <select type="Class Feature" name="Prodigy" supports="Skill,Expertise" />
+        </rules>
+    </element>
+
+    <element name="Prodigy" type="Feat" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_FEAT_PRODIGY">
+        <prerequisite>Half-elf, half-orc, or human</prerequisite>
+        <requirements>ID_RACE_HALFELF||ID_RACE_HALFORC||ID_RACE_HUMAN||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_GRANT_RACE_HALF_ELF||ID_INTERNAL_GRANT_RACE_HALF_ORC||ID_INTERNAL_GRANT_RACE_HUMAN,!ID_BOF14_FEAT_PRODIGY</requirements>
+        <description>
+            <p><i>Prerequisite: Half-elf half-orc, or human</i></p>
+            <p>You have a knack for learning new things. You gain the following benefits:</p>
+            <ul>
+                <li>You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.</li>
+                <li>Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn’t already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</li>
+            </ul>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Proficiency" name="Skill Proficiency (Prodigy)" supports="Skill" />
+            <select type="Proficiency" name="Tool Proficiency (Prodigy)" supports="Tool" />
+            <select type="Language" name="Prodigy" supports="Standard||Exotic||Secret" />
+            <select type="Class Feature" name="Prodigy" supports="Skill,Expertise" />
+        </rules>
+    </element>
+
+    <element name="Second Chance (Book of Fantasia)" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_SECOND_CHANCE">
+        <requirements>!ID_WOTC_XGTE_FEAT_SECOND_CHANCE</requirements>
+        <description>
+            <p>Fortune favors you when someone tries to strike you. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity, Constitution, or Charisma score by 1, to a maximum of 20.</li>
+                <li>When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can’t use it again until you roll initiative at the start of combat or until you finish a short or long rest.</li>
+            </ul>
+        </description>
+        <sheet action="Reaction">
+            <description>When a creature you can see hits you with an attack roll, you can force that creature to reroll. Once you use this ability, you can’t use it again until you roll initiative at the start of combat or until you finish a short or long rest.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement (Second Chance)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_CHARISMA" />
+        </rules>
+    </element>
+
+    <element name="Second Chance" type="Feat" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_FEAT_SECOND_CHANCE">
+        <prerequisite>Halfling</prerequisite>
+        <requirements>ID_RACE_HALFLING||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_GRANT_RACE_HALFLING,!ID_BOF14_FEAT_SECOND_CHANCE</requirements>
+        <description>
+            <p><i>Prerequisite: Halfling</i></p>
+            <p>Fortune favors you when someone tries to strike you. You gain the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity, Constitution, or Charisma score by 1, to a maximum of 20.</li>
+                <li>When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can’t use it again until you roll initiative at the start of combat or until you finish a short or long rest.</li>
+            </ul>
+        </description>
+        <sheet action="Reaction">
+            <description>When a creature you can see hits you with an attack roll, you can force that creature to reroll. Once you use this ability, you can’t use it again until you roll initiative at the start of combat or until you finish a short or long rest.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Improvement (Second Chance)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_CHARISMA" />
+        </rules>
+    </element>
+
+    <element name="Wood Elf Magic (Book of Fantasia)" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_WOOD_ELF_MAGIC">
+        <requirements>!ID_WOTC_XGTE_FEAT_WOOD_ELF_MAGIC</requirements>
+        <description>
+            <p>You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the long strider and pass Without trace spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells.</p>
+        </description>
+        <sheet>
+            <description>You learn the long strider and pass without trace spells, each of which you can cast once without expending a spell slot. Wisdom is your spellcasting ability for chosen cantrip and these spells.</description>
+        </sheet>
+        <rules>
+            <select type="Spell" name="Cantrip (Wood Elf Magic)" supports="Druid,0" />
+        </rules>
+    </element>
+
+    <element name="Wood Elf Magic" type="Feat" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_FEAT_WOOD_ELF_MAGIC">
+        <prerequisite>Elf (wood)</prerequisite>
+        <requirements>ID_SUB_RACE_WOOD_ELF||ID_WOTC_TCOE_RACE_CUSTOM_LINEAGE||ID_INTERNAL_GRANT_RACE_WOOD_ELF,!ID_BOF14_FEAT_WOOD_ELF_MAGIC</requirements>
+        <description>
+            <p><i>Prerequisite: Elf (wood)</i></p>
+            <p>You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the long strider and pass Without trace spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells.</p>
+        </description>
+        <sheet>
+            <description>You learn the long strider and pass without trace spells, each of which you can cast once without expending a spell slot. Wisdom is your spellcasting ability for chosen cantrip and these spells.</description>
+        </sheet>
+        <rules>
+            <select type="Spell" name="Cantrip (Wood Elf Magic)" supports="Druid,0" />
+        </rules>
+    </element>
+
+    </elements>

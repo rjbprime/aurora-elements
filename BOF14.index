@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>The Book of Fantasia Campaign Guide 2014</name>
+		<description>The content from RJBPrime's Home game.</description>
+		<author url="https://github.com/rjbprime/aurora-elements">RJBPrimal - Aurora Elements</author>
+		<update version="0.0.1">
+			<file name="BOF14.index" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/BOF14.index" />
+		</update>
+	</info>
+	<files>
+		<!-- Source File -->
+		<file name="source-bof-2014.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2014/source-bof-2014.xml" />
+		<!-- 2014 Content Changes -->
+		<file name="class-monk-bof-2014.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2014/class-monk-bof-2014.xml" />
+		<file name="class-paladin-bof-2014.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2014/class-paladin-bof-2014.xml" />
+		<file name="companions-bof-2014.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2014/companions-bof-2014.xml" />
+		<file name="feats-bof-2014.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2014/feats-bof-2014.xml" />
+		<file name="other-changes-bof-2014.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2014/other-changes-bof-2014.xml" />
+		<file name="race-harengon-bof-2014.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2014/race-harengon-bof-2014.xml" />
+		<file name="race-hengeyokai-bof-2014.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2014/race-hengeyokai-bof-2014.xml" />
+		<file name="sorcerer-metallic-soul-bof-2014.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2014/sorcerer-metallic-soul-bof-2014.xml" />
+		<file name="ua-bof-2014.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2014/ua-bof-2014.xml" />		
+	</files>
+</index>

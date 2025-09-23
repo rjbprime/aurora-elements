@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Hengeyokai</name>
+		<author url="">RJBPrime</author>
+		<update version="0.0.1">
+			<file name="race-hengeyokai-bof-2014.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Hengeyokai (Book of Fantasia)" type="Race" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_RACE_HENGEYOKAI">
+		<description>
+			<p class="flavor">Hengeyokai are a race of intelligent, shapeshifting animals native to Kara-Tur that can freely assume human form or a bipedal hybrid form; numerous subraces exist, each corresponding to a different species of common animal. They are the descendants of humans and shapeshifting animal spirits, and as such they have a strong connection to both the spirit and mortal worlds. Unlike the savage and bloodthirsty lycanthropes, hengeyokai are usually reclusive and do not become violent except when no other choice remains.</p>
+			<p class="flavor">Hengeyokai live throughout Kara-Tur on the fringes of human society. They are secretive creatures that avoid prolonged contact with other races, the one exception being the spirit folk (see the sidebar). Despite their natural reticence, some goodnatured hengeyokai become the protectors of human families or small villages. Scholars believe that the hengeyokai’s supernatural heritage explains this seemingly incongruous behavior, since so many spirits are protective by nature. These creatures receive offerings of food, gifts, and services in return for their efforts, even though most beneficiaries never see their guardian or realize its true nature. For instance, the hare hengeyokai Xax Chung is called the hero of Koje, a small city in central Koryo. He perished defending his adopted hometown from a dragon that had smashed Jisziat’s Tower, a prominent local landmark; until his death, few suspected that the elderly warrior was anything other than human.</p>
+			<p class="flavor">On the other hand, evil hengeyokai often prey upon humans. More mischievous than malevolent, these hengeyokai delight in playing cruel pranks on their victims but will deceive, steal, and even kill to get what they want. Typically they extort offerings from terrorized locals, but few are ever satisfied with their gifts, often leading to unpleasant results.</p>
+			<h4>APPEARANCE AND PHYSICAL QUALITIES</h4>
+			<p>Hengeyokai are agile creatures, but their other physical attributes vary according to their subrace. Several subraces are known to exist: badger, cat, crab, dog, hare, monkey, rat, and sparrow. Legends abound of other subraces, such as carp, crane, fox, frog, lizard, raccoon dog  and weasel, in addition to larger beings such as tigers, dolphins, and pandas; however, no human has ever confirmed their existence.</p>
+			<p class="indent">The race is exceptionally long-lived, with an unusual life cycle. Hengeyokai can live for over 200 years, but for the first century they exist only as animals and cannot assume another form. Except for their extended life span and above-average intelligence, immature hengeyokai differ little from mundane animals. Once they reach 100 years of age, they can assume hybrid and human forms. At this point, they are the equivalent of human adolescents, but any memories of their previous existence are hazy and indistinct.</p>
+			<p class="indent">All hengeyokai can assume three distinct forms.</p>
+			<ul>
+				<li><em><strong>Animal Form:</strong></em> In animal form, hengeyokai are nearly indistinguishable from normal animals; only careful observation of their behavior can uncover their intelligence. They are exceptionally mobile in this form and often assume it for the purpose of exploration or reconnaissance. Hengeyokai cannot speak in animal form, but they can communicate with beasts similar to themselves.</li>
+				<li><em><strong>Hybrid Form:</strong></em> In this form, hengeyokai stand at their human height on their hind legs or similar appendages. They assume an overall humanoid shape, with front paws, wings, or fins changing into hands that are capable of gripping and using weapons and other equipment, but retain their animalistic appearance, including fur, scales, feathers, tails, and other characteristics. They can speak any languages they know and are still able to communicate with animals. Hengeyokai prefer to assume this form among their own kind or trusted companions of other races.</li>
+				<li><em><strong>Human Form:</strong></em> Each hengeyokai can assume the form of a unique human. While individuals’ appearance varies according to the region in which they were born, on average they are shorter and slighter than their human neighbors. Even in human form, hengeyokai always display some animalistic features. For example, a sparrow hengeyokai might have a sharp, beaklike nose; a crab hengeyokai, larger-than-normal hands; and a rat hengeyokai, beady eyes or a long, thin mustache. Hengeyokai in human form can speak any language they know but can no longer directly communicate with animals, though they can still understand them.</li>
+			</ul>
+			<h4>BELIEFS AND CULTURE</h4>
+			<p>Hengeyokai are a reclusive race. They rarely befriend other creatures (except for spirit folk) and are wary of strangers. However, if treated kindly, hengeyokai can become steadfast and lifelong friends.</p>
+			<h5>Attitudes</h5>
+			<p class="indent">Hengeyokai are wild and unpredictable, with a strong independent streak. They value their freedom above all else, and many also champion the freedom of others. They abhor slavery and shudder at the thought of chaining or caging an animal; restraining a hengeyokai in this manner is a grave insult. They also display personality traits similar to their animal forms. A badger hengeyokai might be aggressive and dour, a monkey hengeyokai playful and inquisitive, and a hare hengeyokai quiet but always alert for signs of danger.</p>
+			<p class="indent">Like most races, the majority of hengeyokai do not have a strong disposition toward good or evil, though some subraces have an affinity for certain alignments. Carp, crane, dog, hare, and sparrow hengeyokai tend toward good (however, few hengeyokai possess the discipline necessary to be lawful good), while badger, fox, raccoon dog, and rat hengeyokai tend toward evil or chaotic evil. Many humans treat the subraces according to these stereotypes; for example, they might be suspicious of fox hengeyokai and avoid them.</p>
+			<p class="indent">All hengeyokai are mischievous by nature and value playing tricks on others without being caught or noticed, even if doing so doesn’t endear them to their neighbors. They do this for a variety of reasons, often for amusement, but mainly to test the reactions of their neighbors and to prepare for dangerous situations. Most pranks are good-natured fun (snatching food, misplacing household objects, and setting animals loose are popular), but those of evil hengeyokai are frequently malicious and destructive—sometimes deadly.</p>
+			<h5>Daily Life</h5>
+			<p class="indent">Hengeyokai live as simply as possible and prefer to stay on the edges of human society, often in isolated rural areas close to the safety of the wilderness, moving whenever civilization encroaches further upon their territory. Given their itinerant existence, hengeyokai have little use for material possessions; they usually exchange whatever treasure they accumulate for practical items such as food or weapons.</p>
+			<p class="indent">While in human or hybrid form, they typically adopt the dress, language, tools, and customs of their nearest human neighbors. Their diet is also similar to that of their neighbors, though they favor foods associated with their animal forms; for example, sparrow hengeyokai prefer grains while monkey hengeyokai eat fruit, and cat hengeyokai are exclusively carnivores.</p>
+			<p class="indent">Hengeyokai have little interest in land or social status, and they do not strongly value personal honor as their human neighbors do. They enjoy storytelling, horticulture, and all forms of physical recreation, especially swimming, running, and climbing. Few have the patience to learn a craft, but those who do are exceptionally skilled, and collectors eagerly seek out their nishiki-e (colored woodcuts) and kongi rikishi (carved figures that guard the entrances to temples).</p>
+			<h5>Communities</h5>
+			<p class="indent">Hengeyokai do not have lands of their own and rarely form lasting communities. They usually dwell alone or in small nomadic bands, constructing temporary shelters of wood and stone. Different subraces of hengeyokai can live together as long as they share similar habitats and beliefs; homogeneous bands are rarer, but not unheard of. It is proper to refer to homogenous bands by the collective noun associated with their animal form, such as pride, school, or flock; they often become part of local folklore. Some prominent examples include the lake folk of Nam Tso in Tabot, a school of beneficent carp hengeyokai, and the enigmatic “bird men” of Koryo, believed to be an unusually large flock of crane hengeyokai.</p>
+			<p class="indent">During adolescence, thrill-seeking hengeyokai overcome by wanderlust and curiosity sometimes choose to live among humans temporarily; many of those who do so eventually develop an instinctual urge to remain and protect their new neighbors. They especially favor those who treat animals well, are kind toward strangers, and tolerate their mischief. Such hengeyokai live in human form under an assumed identity (usually one that allows them to disappear for days without raising many questions) or pose as somewhat tame animals living nearby—but never as pets. A content hengeyokai might remain in its adopted home for many years, watching over several generations of humans.</p>
+			<p class="indent">Hengeyokai do not establish clans or have any strong familial bonds, to the point of rarely worshiping ancestor spirits. Adult hengeyokai seldom form lasting romantic relationships and typically mate only once or twice in their lifetimes. Such unions are passionate but fleeting, lasting only until the young can fend for themselves, which is typically a few months after birth; most couples part on good terms and remain friendly for the remainder of their lives. Some parents linger near their young for a few years to offer them protection, especially if hunters pose a threat.</p>
+			<p class="indent">On rare occasions, hengeyokai mate with animals, humans, or spirit folk (the former in animal form, the latter two in human form). The offspring of animals and hengeyokai are hengeyokai, but those born of hengeyokai and humans or spirit folk have the mother’s race. Human children of these couplings are notable for their agility, longevity, and beauty; they also have a preternatural connection with animals, often becoming rangers or druids.</p>
+			<h5>Religion</h5>
+			<p class="indent">As the descendants of spirits, hengeyokai feel closer to the spirit world than to the world of mortals. They do not venerate spirits as other races do but view them as equals. Even hengeyokai that wield primal magic share this attitude. Their individualism often prompts hengeyokai to become followers of less rigid, more personal religions and philosophical traditions such as the Way (in Shou Lung and T’u Lung), the cult of the Eight Million Gods (in Wa and Kozakura), or shamanism. Hengeyokai rarely follow established doctrine and readily shrug off accusations of heresy; they believe what they believe and worship as they please.</p>
+			<p class="indent">Long ago, many hengeyokai in Wa turned to the worship of the foreign goddess Chauntea despite the shogunate’s ban, viewing her as an immensely powerful, yet benevolent and easygoing, nature spirit. Most of these hengeyokai fled Wa after the suppression of the Juzimura Rebellion. Many ultimately migrated to Faerûn where they could worship her as they pleased, much to the annoyance of some orthodox churches there.</p>
+			<h4>HENGEYOKAI POPULATIONS</h4>
+			<p>Hengeyokai live all across Kara-Tur but are especially prevalent in three regions: Sheng Ti province in the heartlands of Shou Lung, the Ama Basin, and the islands of Shinkoku and Tenmei in Kozakura.</p>
+			<h5>Sheng Ti Province</h5>
+			<p class="indent">This province of terraced hills and dense forests has always been renowned for its large population of hengeyokai. Its cities are among the few places where hengeyokai openly assume their hybrid forms, even those normally viewed with suspicion by humans, such as the fox and raccoon dog subraces. The province is also famous for the beauty of its people, and the Sheng are thought to owe much of their diminutive stature and elegance to the influence of hengeyokai, as well as numerous spirit folk.</p>
+			<p class="indent">Following the Spellplague, the connection grew much stronger between Sheng Ti and the portion of the spirit world that Faerûnians would call the Feywild. Though empowered by these events, the hengeyokai and spirit folk inhabitants of the province remained loyal to the Emperor and helped him restore order (the maternal great-grandfather of the ninth Emperor Chin of the ruling Kuo dynasty was a hengeyokai from Sheng Ti). Recognizing their contribution, in 2646 (1396 DR), the grateful Emperor decreed that all hengeyokai and spirit folk subjects residing in the province could legally take the civil service examinations and join the mandarinate, which had previously been an option available only to humans. Given their nature, few took the opportunity, but that fact hasn’t stopped the formation of racist tongs that wish to restore the former status quo. These tongs plot in the shadows with tacit support from some nobles and bureaucrats, and sometimes act against prominent hengeyokai.</p>
+			<p class="indent">Nowadays, hengeyokai from all over Kara-Tur view Sheng Ti province as a refuge, and many have migrated to it by way of Lo’Shan, its main seaport. Hengeyokai who fled Wa after a wave of gargantuas devastated that country came to Sheng Ti but had trouble assimilating; many left to establish new homes in the Hordelands or even farther west in Faerûn.</p>
+			<h5>Ama Basin</h5>
+			<p class="indent">The Shou refer to this immense area of swamps and taiga around the Ama River as the Northern Wastes, a misleading name since it is hardly a wasteland. In fact, it is home to a wide variety of peoples, including several confederations of human barbarians, many korobokuru clans, numerous spirit folk enclaves, and the largest concentration of hengeyokai in all of Kara-Tur.</p>
+			<p class="indent">Hengeyokai thrive in this remote wilderness, and the barbarians that dominate the region accord them a great deal of respect (and sometimes fear and hatred), believing them to be powerful manifestations of the spiritual forces of nature. Traditionally hengeyokai, even evil ones, become protectors of human tribes, who have always been in desperate need of allies. The situation has only worsened in the decades following the Spellplague, for several powerful oni have enslaved the hobgoblin living in the nearby Land of Snow Demons. The human villages scattered across the region are now under constant threat from their predatory neighbors to the north.</p>
+			<p class="indent">Shamanism is the region’s most widespread belief system, and the Ama River basin is home to most hengeyokai practitioners of primal magic, especially barbarians, druids, rangers, and seekers. Spellscars, which are otherwise extremely rare in Kara-Tur, are unusually widespread among the hengeyokai of the Northern Wastes. These strange markings manifest only on hengeyokai in hybrid or human form, engendering great respect (and fear) in their human neighbors. No one has been able to explain this mysterious phenomenon, though it has attracted the attention of sages and wu jen across Kara-Tur.</p>
+			<h5>Kozakura</h5>
+			<p class="indent">The mountains and forests of Kozakura have long been home to hengeyokai, who live in isolated enclaves far from the constant strife of the human-dominated coastal regions. Traditionally, monkey hengeyokai are the most numerous in southern Shinkoku, fox hengeyokai in northern Shinkoku, and rat hengeyokai in Tenmei. These demographics have largely remained the same over the centuries, though many rat hengeyokai left Tenmei following a bloody feud with the local korobokuru.</p>
+			<p class="indent">After the Spellplague, Kozakura lapsed into civil war. Much of the hengeyokai population, as well as their spirit folk allies, remained neutral and retreated deeper into the wilderness or fled to Shou Lung. However, several devoted themselves to protecting the populace from the warring factions and rampant banditry. The most famous was a female monkey hengeyokai named Aoi, a student of Onoye, a fellow monkey hengeyokai who had established the Monkey style of martial arts during the previous century.</p>
+			<p class="indent">She single-handedly protected seven villages from a force of over 100 marauding ronin, and after the war ebbed, she established several dojos throughout the hinterlands of Shinkoku to teach her master’s style to the island’s peasantry. Now, many villages in south-western Shinkoku defiantly display wooden or stone monkey carvings as a warning to bandits, evil spirits, and headstrong samurai.</p>
+			<h5>Beyond Kara-Tur</h5>
+			<p class="indent">The upheaval and disruption caused by the Spellplague prompted many to leave Kara-Tur for what they mistakenly believed was the relative peace of Faerûn. Numerous hengeyokai have emigrated westward in recent years. This migration actually began prior to the Spellplague; like their human neighbors, some fled before the Tuigan Horde, while others left following Tan Chin’s subsequent invasion of Shou Lung. A few hengeyokai, motivated by curiosity and wanderlust, joined or followed merchant caravans traveling along the Spice Road and the Golden Way.</p>
+			<p class="indent">Some of the hengeyokai who left settled in the Hordelands, particularly in Yaimunnahar, along the Lake of Mists, or in the foothills of the Sunrise Mountains. They became self-appointed guardians of the Golden Way’s many oases, much to the chagrin of the bandits and savage humanoids looking to prey on caravan traffic.</p>
+			<p class="indent">In Faerûn, the majority of hengeyokai settled near the Golden Way in Thesk and Rashemen, as well as in the Great Dale and along the Dragon Coast. Any city with a Shou-town has at least a few hengeyokai inhabitants, who often live disguised as humans (especially in xenophobic Nathlan). They must be cautious to avoid being mistaken for lycanthropes—a particular concern for those with sinister counterparts such as rat hengeyokai. However, the crafty among them can turn such confusion to their advantage.</p>
+			<p class="indent">A few hengeyokai have left behind the familiarity of the Shou-towns and struck out on their own, relocating primarily to the Dalelands, the Western Heartlands, and the North. For example, a pride of cat hengeyokai has settled within the King’s Forest in Cormyr. Cleverly taking advantage of their new home’s favorable attitude toward cats, these hengeyokai protect the humans living nearby from rampaging beasts and other threats.</p>
+			<h4>HENGEYOKAI TRAITS</h4>
+			<p>Hengeyokai are a diverse race that can fulfill a number of different roles in your campaign.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Although hengeyokai reach physical maturity at about the same age as either humans or the animals they surround themselves with, the hengeyokai understanding of adulthood goes beyond physical growth to encompass worldly experience. An hengeyokai typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+			<set name="names" type="child">Ara, Bryn, Del, Eryn, Faen, Innil. Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall</set>
+			<set name="names" type="family">Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Hengeyokai)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="3"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Language (Hengeyokai)" number="2" supports="Standard||Exotic" />
+			
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HYBRID_NATURE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ANIMAL_FORM" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HYBRID_FORM" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HENGEYOKAI_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Hybrid Nature" type="Racial Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_RACIAL_TRAIT_HYBRID_NATURE">
+		<description>
+			<p>You are a shapechanger with two creature types: fey and humanoid. You can be affected by a game effect if it works on either of your creature types no matter your current form. </p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210126_INFORMATION_CREATURE_TYPE" />
+			</div>
+		</description>
+		<sheet alt="Type">
+			<description>Fey and Humanoid.</description>
+		</sheet>
+		<sheet alt="Creature Type">
+			<description>Fey and Humanoid.</description>
+		</sheet>
+		<sheet display="false">
+			<description>You are a shapechanger with two creature types: fey and humanoid. You can be affected by a game effect if it works on either of your creature types no matter your current form. </description>
+		</sheet>
+	</element>
+	<element name="Animal Form" type="Racial Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_RACIAL_TRAIT_ANIMAL_FORM">
+		<description>
+			<p>Choose an animal form for your hengeyokai: badger, cat, crab, dog (mastiff), hare (weasel stats block, speed 40), monkey, rat, or sparrow.</p>
+			<p class="indent">Your chosen animal grants you an ability score increase at first level or another benefit: Constitution +1 (badger), Charisma +1 (cat), Swim speed 20 (crab), Strength +1 (mastiff), Wisdom +1 and walking speed 40 (hare), Climb speed 20 (monkey), Advantage Wisdom (Perception) checks that rely on smell (rat). The sparrow grants no other benefit than the flying speed gained in animal form. </p>
+			<p class="indent">You can transform as an action and stay in your beast shape indefinitely. You can revert to your hybrid or human form by using a bonus action on your turn. You automatically revert to your human form if you fall unconscious, drop to 0 hit points, or die. See the druid's Wild Shape feature for the rules that apply while you are transformed.</p>
+		</description>
+		<sheet action="Action" usage="{{proficiency}}/Short Rest">
+			<description>You can transform as an action and stay in your beast shape indefinitely. You can revert to your hybrid or human form by using a bonus action on your turn. You automatically revert to your human form if you fall unconscious, drop to 0 hit points, or die. </description>
+		</sheet>
+	</element>
+	<element name="Hybrid Form" type="Racial Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_RACIAL_TRAIT_HYBRID_FORM">
+		<description>
+			<p>You can assume your hybrid form as an action. In your animal form, you can shapechange into your hybrid form as a bonus action.</p>
+			<p class="indent">In their hybrid form, hengeyokai stand at their human height on their hind legs or similar appendages. They assume an overall humanoid shape, with front paws or wings changing into hands that are capable of gripping and using weapons and other equipment, but retain their animalistic appearance, including fur, scales, feathers, tails, and other characteristics. At the DM's option, your hybrid form may have a natural weapon (e.g. claws, beak, bite) that deals 1d6 bludgeoning, piercing, or slashing damage as appropriate to the animal's natural weapon. You are proficient with your natural weapon.</p>
+			<p class="indent">While in your hybrid form, you can speak with animals (as per the spell). This is a nonmagical ability.</p>
+			<p class="indent">You can stay in your hybrid form indefinitely. You can revert to your animal or human form by using a bonus action on your turn. You revert to your human form if you fall unconscious, drop to 0 hit points, or die. </p>
+		</description>
+		<sheet action="Action" usage="{{proficiency}}/Short Rest">
+			<description>You can assume your hybrid form as an action. In your animal form, you can shapechange into your hybrid form as a bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Hengeyokai Subrace" type="Racial Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_RACIAL_TRAIT_HENGEYOKAI_SUBRACE">
+		<description>
+			<p>The hengeyokai is a race of intelligent, shapeshifting animals native to Kara-Tur. All hengeyokai can assume three distinct forms : an animal form, a hybrid form, and a human form. The Hengeyokai are wild and unpredictable, with a strong independent streak. They value their freedom above all else, and many also champion the freedom of others.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Hengeyokai Subrace" supports="Hengeyokai" />
+		</rules>
+	</element>
+
+	<element name="Hengeyokai (Badger)" type="Sub Race" source="The Book of Fantasia Campaign Guide 2014" id="ID_SUB_RACE_BADGER_HENGEYOKAI">
+		<supports>Hengeyokai</supports>
+		<description>
+			<p>Badger, crab, and dog hengeyokai in particular embrace the way of the warrior, for they possess the requisite strength, temperament, and stamina.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Hengeyokai (Badger))" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Companion" name="Animal Form" supports="Hengeyokai" />
+		</rules>
+	</element> 
+
+	<element name="Hengeyokai (Cat)" type="Sub Race" source="The Book of Fantasia Campaign Guide 2014" id="ID_SUB_RACE_CAT_HENGEYOKAI">
+		<supports>Hengeyokai</supports>
+		<description>
+			<p>Cat, fox, monkey, and sparrow hengeyokai have the strongest talent for magic.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Hengeyokai (Cat))" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Companion" name="Animal Form" supports="Hengeyokai" />
+		</rules>
+	</element>
+
+	<element name="Hengeyokai (Crab)" type="Sub Race" source="The Book of Fantasia Campaign Guide 2014" id="ID_SUB_RACE_CRAB_HENGEYOKAI">
+		<supports>Hengeyokai</supports>
+		<description>
+			<p>Badger, crab, and dog hengeyokai in particular embrace the way of the warrior, for they possess the requisite strength, temperament, and stamina.</p>
+			<p class="indent"><strong><em>Swim Speed.</em></strong> You have a swim speed of 20 feet.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SWIM_SPEED" />
+			<select type="Companion" name="Animal Form" supports="Hengeyokai" />
+		</rules>
+	</element>
+	<element name="Natural Swim Speed" type="Racial Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_RACIAL_TRAIT_SWIM_SPEED">
+		<description>
+			<p>You have a swim speed of 20 feet.</p>
+		</description>
+		<sheet display="false">
+			<description>You have a swim speed of 20 feet.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:swim" value="20" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Hengeyokai (Mastiff)" type="Sub Race" source="The Book of Fantasia Campaign Guide 2014" id="ID_SUB_RACE_MASTIFF_HENGEYOKAI">
+		<supports>Hengeyokai</supports>
+		<description>
+			<p>Badger, crab, and dog hengeyokai in particular embrace the way of the warrior, for they possess the requisite strength, temperament, and stamina.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Hengeyokai (Mastiff))" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Companion" name="Animal Form" supports="Hengeyokai" />
+		</rules>
+	</element>
+
+	<element name="Hengeyokai (Hare)" type="Sub Race" source="The Book of Fantasia Campaign Guide 2014" id="ID_SUB_RACE_HARE_HENGEYOKAI">
+		<supports>Hengeyokai</supports>
+		<description>
+			<p>The hare, monkey and rat hengeyokai of southwestern Shinkoku, Kozakura’s largest island, are renowned martial artists. </p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Hengeyokai (Mastiff))" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="40" bonus="base" />
+			<select type="Companion" name="Animal Form" supports="Hengeyokai" />
+		</rules>
+	</element>
+
+	<element name="Hengeyokai (Monkey)" type="Sub Race" source="The Book of Fantasia Campaign Guide 2014" id="ID_SUB_RACE_MONKEY_HENGEYOKAI">
+		<supports>Hengeyokai</supports>
+		<description>
+			<p>The hare, monkey and rat hengeyokai of southwestern Shinkoku, Kozakura’s largest island, are renowned martial artists.</p>
+			<p class="indent"><strong><em>Climb Speed.</em></strong> You have a climb speed of 20 feet.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CLIMB_SPEED" />
+			<select type="Companion" name="Animal Form" supports="Hengeyokai" />
+		</rules>
+	</element>
+	<element name="Natural Climb Speed" type="Racial Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_RACIAL_TRAIT_CLIMB_SPEED">
+		<description>
+			<p>You have a climb speed of 20 feet.</p>
+		</description>
+		<sheet display="false">
+			<description>You have a climb speed of 20 feet.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:climb" value="20" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Hengeyokai (Rat)" type="Sub Race" source="The Book of Fantasia Campaign Guide 2014" id="ID_SUB_RACE_RAT_HENGEYOKAI">
+		<supports>Hengeyokai</supports>
+		<description>
+			<p>The hare, monkey and rat hengeyokai of southwestern Shinkoku, Kozakura’s largest island, are renowned martial artists.</p>
+			<p class="indent"><strong><em>Climb Speed.</em></strong> You have a climb speed of 20 feet.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SCENT" />
+			<select type="Companion" name="Animal Form" supports="Hengeyokai" />
+		</rules>
+	</element>
+	<element name="Keen Scent" type="Racial Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_RACIAL_TRAIT_KEEN_SCENT">
+		<description>
+			<p>You have advantage on Wisdom (Perception) checks that rely on smell.</p>
+		</description>
+		<sheet display="false">
+			<description>You have advantage on Wisdom (Perception) checks that rely on smell.</description>
+		</sheet>
+	</element>
+
+	<element name="Hengeyokai (Sparrow)" type="Sub Race" source="The Book of Fantasia Campaign Guide 2014" id="ID_SUB_RACE_SPARROW_HENGEYOKAI">
+		<supports>Hengeyokai</supports>
+		<description>
+			<p>Cat, fox, monkey, and sparrow hengeyokai have the strongest talent for magic.</p>
+			<p class="indent"><strong><em>Fly Speed.</em></strong> In your animal form, you have a fly speed of 50 feet.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<select type="Companion" name="Animal Form" supports="Hengeyokai" />
+		</rules>
+	</element>
+
+</elements>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Feats</name>
+		<description>Feats from The Book of Fantasia Campaign Guide 2014.</description>
+		<author url="">RJBPrime</author>
+		<update version="0.0.2">
+			<file name="feats-bof-2014.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Dreamwalker" type="Feat" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_FEAT_DREAMWALKER">
+		<description>
+			<p>Either through training or unknown reasons, you are able to walk between reality and dreams. You gain the following benefit:</p>
+			<ul>
+				<li>During a long rest, you can enter the Ethereal Plane as an astral projection of yourself. While on this plane, you can see when a creature is dreaming by seeing a near transparent sphere that deforms the fabric of the plane like water refracting light around its head. You can choose to peer into the dream or enter it for a number of minutes equal to five times your proficiency bonus. Once you've peered on enter into a creature's dream, you can't peer again into this creature's dreams until your next long rest.</li>
+				<li>If you chose to enter the dream, you may interact with it however you choose and you can also communicate with the dreamer. When the dreamer wakes up, it can make an Insight check against your spell save DC or against a Deception or Persuasion check, your choice, to acknowledge that its dream has been meddled with.</li>
+				<li>The DM may choose to not make a roll or give advantage or even disadvantage on the roll depending on the situation and the complexity of the dream. Inserting yourself in a dream has a chance of failure depending on your relationship with the creature. When you enter a dream, the DM rolls d100 and consults the table following.</li>
+			</ul>
+			<table>
+					<tr>
+						<td>Relationship</td><td>Failure</td><td>Success</td>
+					</tr>
+					<tr>
+						<td>Family Member</td><td>\u2013</td><td>01-100</td>
+					</tr>
+					<tr>
+						<td>Close Friend</td><td>01-10</td><td>11-100</td>
+					</tr>
+					<tr>
+						<td>Friend</td><td>01-20</td><td>21-100</td>
+					</tr>
+					<tr>
+						<td>Trusted Ally</td><td>01-30</td><td>31-100</td>
+					</tr>
+					<tr>
+						<td>Acquaintance</td><td>01-40</td><td>41-100</td>
+					</tr>
+					<tr>
+						<td>Stranger</td><td>01-50</td><td>51-100</td>
+					</tr>
+			</table>
+			<p class="indent">Any damage you take while on the Ethereal Plane through this feat is also inflicted on your physical body. You die in your sleep if you are killed while on the Ethereal Plane.</p>
+			<p class="indent">Resting while Dreamwalking isn't as recovering as a normal. At the end of a long rest where you dreamwalked, you do not recover lost Hit Points, though you still regain all Hit Dice normally gained through a long rest. You can spend one or more Hit Dice at the end of the long rest to regain Hit points.</p>
+		</description>
+		<sheet>
+			<description>During a Long Rest: enter the dreams of other creatures via the Ethereal Plane, can interact with said creature in their dreams, for up to 5\u00D7 prof. bonus per day. Damage carries over to waking body, don't restore damage to HP upon waking, recover my HD normally, and can spend them to recover HP afterwards.</description>
+		</sheet>
+	</element>
+
+</elements>

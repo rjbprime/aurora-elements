@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Companions (Book of Sanctuary)</name>
+		<description>Companion creatures from The Book of Fantasia Campaign Guide 2014.</description>
+		<author url="">RJBPrime</author>
+		<update version="0.0.1">
+			<file name="companions-bof-2014.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Badger" type="Companion" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_BADGER">
+		<supports>Hengeyokai</supports>
+		<description />
+		<setters>
+			<set name="strength">4</set>
+			<set name="dexterity">11</set>
+			<set name="constitution">12</set>
+			<set name="intelligence">2</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">5</set>
+			<set name="ac">10</set>
+			<set name="hp">3 (1d4+1)</set>
+			<set name="speed">20 ft., burrow 5 ft.</set>
+			<set name="senses">darkvision 30 ft.</set>
+			<set name="languages">—</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">0</set>
+			<set name="traits">ID_BOF14_COMPANION_TRAIT_BADGER_KEEN_SMELL</set>
+			<set name="actions">ID_BOF14_COMPANION_ACTION_BADGER_BITE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="10" />
+			<stat name="companion:hp:max" value="3" bonus="base" />
+			<stat name="companion:speed" value="20" bonus="base" />
+			<stat name="companion:speed:burrow" value="5" bonus="base" />
+		</rules>
+	</element>
+	<element name="Keen Smell" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_BADGER_KEEN_SMELL">
+		<description>
+			<p>The badger has advantage on Wisdom (Perception) checks that rely on smell.</p>
+		</description>
+		<sheet>
+			<description>The badger has advantage on Wisdom (Perception) checks that rely on smell.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_ACTION_BADGER_BITE">
+		<description>
+			<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Cat" type="Companion" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_CAT">
+		<supports>Familiar, Hengeyokai</supports>
+		<description />
+		<setters>
+			<set name="strength">3</set>
+			<set name="dexterity">15</set>
+			<set name="constitution">10</set>
+			<set name="intelligence">3</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">7</set>
+			<set name="ac">12</set>
+			<set name="hp">2 (1d4)</set>
+			<set name="speed">40 ft., climb 30 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Perception +3, Stealth +4</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">0</set>
+			<set name="traits">ID_BOF14_COMPANION_TRAIT_CAT_KEEN_SMELL</set>
+			<set name="actions">ID_BOF14_COMPANION_ACTION_CAT_CLAWS</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="12" />
+			<stat name="companion:hp:max" value="2" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:speed:climb" value="30" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Keen Smell" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_CAT_KEEN_SMELL">
+		<description>
+			<p>The cat has advantage on Wisdom (Perception) checks that rely on smell.</p>
+		</description>
+		<sheet>
+			<description>The cat has advantage on Wisdom (Perception) checks that rely on smell.</description>
+		</sheet>
+	</element>
+	<element name="Claws" type="Companion Action" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_ACTION_CAT_CLAWS">
+		<description>
+			<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Crab" type="Companion" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_CRAB">
+		<supports>Familiar, Hengeyokai</supports>
+		<description />
+		<setters>
+			<set name="strength">2</set>
+			<set name="dexterity">11</set>
+			<set name="constitution">10</set>
+			<set name="intelligence">1</set>
+			<set name="wisdom">8</set>
+			<set name="charisma">2</set>
+			<set name="ac">11 (natural armor)</set>
+			<set name="hp">2 (1d4)</set>
+			<set name="speed">20 ft., swim 20 ft.</set>
+			<set name="senses">blindsight 30 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Stealth +2</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">0</set>
+			<set name="traits">ID_BOF14_COMPANION_TRAIT_CRAB_AMPHIBIOUS</set>
+			<set name="actions">ID_BOF14_COMPANION_ACTION_CRAB_CLAW</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="11" />
+			<stat name="companion:hp:max" value="2" bonus="base" />
+			<stat name="companion:speed" value="20" bonus="base" />
+			<stat name="companion:speed:swim" value="20" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Amphibious" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_CRAB_AMPHIBIOUS">
+		<description>
+			<p>The crab can breathe air and water.</p>
+		</description>
+		<sheet>
+			<description>The crab can breathe air and water.</description>
+		</sheet>
+	</element>
+	<element name="Claw" type="Companion Action" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_ACTION_CRAB_CLAW">
+		<description>
+			<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Mastiff" type="Companion" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_MASTIFF">
+		<supports>Hengeyokai</supports>
+		<description />
+		<setters>
+			<set name="strength">13</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">12</set>
+			<set name="intelligence">3</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">7</set>
+			<set name="ac">12</set>
+			<set name="hp">5 (1d8+1)</set>
+			<set name="speed">40 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Perception +3</set>
+			<set name="type">Beast</set>
+			<set name="size">Medium</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">1/8</set>
+			<set name="traits">ID_BOF14_COMPANION_TRAIT_MASTIFF_KEEN_HEARING_AND_SMELL</set>
+			<set name="actions">ID_BOF14_COMPANION_ACTION_MASTIFF_BITE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="12" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Keen Hearing and Smell" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_MASTIFF_KEEN_HEARING_AND_SMELL">
+		<description>
+			<p>The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+		</description>
+		<sheet>
+			<description>The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_ACTION_MASTIFF_BITE">
+		<description>
+			<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</description>
+		</sheet>
+	</element>
+
+	<element name="Hare" type="Companion" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_HARE">
+		<supports>Hengeyokai</supports>
+		<description />
+		<setters>
+			<set name="strength">3</set>
+			<set name="dexterity">16</set>
+			<set name="constitution">8</set>
+			<set name="intelligence">2</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">3</set>
+			<set name="ac">13</set>
+			<set name="hp">1 (1d4-1)</set>
+			<set name="speed">40 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Perception +3, Stealth +5</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">0</set>
+			<set name="traits">ID_BOF14_COMPANION_TRAIT_HARE_KEEN_HEARING_AND_SMELL</set>
+			<set name="actions">ID_BOF14_COMPANION_ACTION_HARE_BITE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" />
+			<stat name="companion:hp:max" value="1" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Keen Hearing and Smell" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_HARE_KEEN_HEARING_AND_SMELL">
+		<description>
+			<p>The hare has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+		</description>
+		<sheet>
+			<description>The hare has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_ACTION_HARE_BITE">
+		<description>
+			<p>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 (1) piercing damage.</p>
+		</description>
+		<sheet>
+			<description>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 (1) piercing damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Monkey" type="Companion" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_MONKEY">
+		<supports>Hengeyokai</supports>
+		<description />
+		<setters>
+			<set name="strength">3</set>
+			<set name="dexterity">18</set>
+			<set name="constitution">12</set>
+			<set name="intelligence">3</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">7</set>
+			<set name="ac">14</set>
+			<set name="hp">3 (1d4+1)</set>
+			<set name="speed">30 ft., climb 30 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Athletics +6, Perception +3, Sleight of Hand +6</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">1/8</set>
+			<set name="actions">ID_BOF14_COMPANION_TRAIT_MONKEY_KEEN_HEARING,ID_BOF14_COMPANION_TRAIT_MONKEY_NIMBLE_ESCAPE,ID_BOF14_COMPANION_ACTION_MONKEY_BITE,ID_BOF14_COMPANION_ACTION_MONKEY_FLING_FECES</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="12" />
+			<stat name="companion:hp:max" value="19" bonus="base" />
+			<stat name="companion:speed" value="30" bonus="base" />
+			<stat name="companion:speed:climb" value="30" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Keen Hearing" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_MONKEY_KEEN_HEARING">
+		<description>
+			<p>The monkey has advantage on Wisdom (Perception) checks that rely on hearing.</p>
+		</description>
+		<sheet>
+			<description>The monkey has advantage on Wisdom (Perception) checks that rely on hearing.</description>
+		</sheet>
+	</element>
+	<element name="Nimble Escape" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_MONKEY_NIMBLE_ESCAPE">
+		<description>
+			<p>The monkey can take the Disengage or Hide action as a bonus action on each of its turns.</p>
+		</description>
+		<sheet>
+			<description>The monkey can take the Disengage or Hide action as a bonus action on each of its turns.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_ACTION_MONKEY_BITE">
+		<description>
+			<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 2 (1d4) piercing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 2 (1d4) piercing damage.</description>
+		</sheet>
+	</element>
+	<element name="Fling Feces" type="Companion Action" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_ACTION_MONKEY_FLING_FECES">
+		<description>
+			<p>Ranged Weapon Attack: +4 to hit, range 15/50 ft., one target. Hit: 0 (0) psychic damage.</p>
+			<p class="indent">The target must succeed on a DC 12 Intelligence saving throw. On a failed save, the target won't willingly move within 10 feet of the monkey. If already within 10 feet, the target must move away on its turn. If it can't move away, the target's melee attacks against the monkey are made with disadvantage.</p>
+			<p class="indent">These effects last until the start of the monkey's next turn. Flinging feces has no effect against constructs, undead, and creatures of Intelligence 2 or lower. The monkey usually flings feces if cornered, frightened or in captivity.</p>
+		</description>
+		<sheet usage="3/Long Rest">
+			<description>Ranged Weapon Attack: +4 to hit, range 15/50 ft., one target. Hit: 0 (0) psychic damage. The target must succeed on a DC 12 Intelligence saving throw. On a failed save, the target won't willingly move within 10 feet of the monkey. If already within 10 feet, the target must move away on its turn. If it can't move away, the target's melee attacks against the monkey are made with disadvantage. These effects last until the start of the monkey's next turn. Flinging feces has no effect against constructs, undead, and creatures of Intelligence 2 or lower. The monkey usually flings feces if cornered, frightened or in captivity.</description>
+		</sheet>
+	</element>
+
+		<element name="Rat" type="Companion" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_RAT">
+		<supports>Familiar, Hengeyokai</supports>
+		<description />
+		<setters>
+			<set name="strength">2</set>
+			<set name="dexterity">11</set>
+			<set name="constitution">9</set>
+			<set name="intelligence">2</set>
+			<set name="wisdom">10</set>
+			<set name="charisma">4</set>
+			<set name="ac">10</set>
+			<set name="hp">1 (1d4-1)</set>
+			<set name="speed">20 ft.</set>
+			<set name="senses">darkvision 30 ft.</set>
+			<set name="languages">—</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">0</set>
+			<set name="traits">ID_BOF14_COMPANION_TRAIT_RAT_KEEN_SMELL</set>
+			<set name="actions">ID_BOF14_COMPANION_ACTION_RAT_BITE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="10" />
+			<stat name="companion:hp:max" value="1" bonus="base" />
+			<stat name="companion:speed" value="20" bonus="base" />
+		</rules>
+	</element>
+	<element name="Keen Smell" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_RAT_KEEN_SMELL">
+		<description>
+			<p>The rat has advantage on Wisdom (Perception) checks that rely on smell.</p>
+		</description>
+		<sheet>
+			<description>The rat has advantage on Wisdom (Perception) checks that rely on smell.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_ACTION_RAT_BITE">
+		<description>
+			<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Sparrow" type="Companion" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_SPARROW">
+		<supports>Familiar, Hengeyokai</supports>
+		<description />
+		<setters>
+			<set name="strength">1</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">8</set>
+			<set name="intelligence">2</set>
+			<set name="wisdom">10</set>
+			<set name="charisma">6</set>
+			<set name="ac">12</set>
+			<set name="hp">1 (1d4-1)</set>
+			<set name="speed">5 ft., fly 50 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Perception +3, Stealth +3</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">0</set>
+			<set name="traits">ID_BOF14_COMPANION_TRAIT_SPARROW_TINY_CRITTER,ID_BOF14_COMPANION_TRAIT_SPARROW_KEEN_SIGHT,ID_BOF14_COMPANION_TRAIT_SPARROW_FOOLED_BY_ILLUSIONS</set>
+			<set name="actions">ID_BOF14_COMPANION_ACTION_SPARROW_PECK</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="12" />
+			<stat name="companion:hp:max" value="1" bonus="base" />
+			<stat name="companion:speed" value="5" bonus="base" />
+			<stat name="companion:speed:fly" value="50" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Tiny Critter" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_SPARROW_TINY_CRITTER">
+		<description>
+			<p>Because of its tiny size and unpredictable maneuverability, creatures have disadvantage on ranged attacks against the sparrow while it's flying if the bird is more than 60 feet away.</p>
+		</description>
+		<sheet>
+			<description>Because of its tiny size and unpredictable maneuverability, creatures have disadvantage on ranged attacks against the sparrow while it's flying if the bird is more than 60 feet away.</description>
+		</sheet>
+	</element>
+	<element name="Keen Sight" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_SPARROW_KEEN_SIGHT">
+		<description>
+			<p>The sparrow has advantage on Wisdom (Perception) checks that rely on sight.</p>
+		</description>
+		<sheet>
+			<description>The sparrow has advantage on Wisdom (Perception) checks that rely on sight.</description>
+		</sheet>
+	</element>
+	<element name="Fooled by Illusions" type="Companion Trait" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_TRAIT_SPARROW_FOOLED_BY_ILLUSIONS">
+		<description>
+			<p>The sparrow has disadvantage on saving throws or ability checks made to perceive illusions (including invisible objects or creatures) and transparent windows.</p>
+		</description>
+		<sheet>
+			<description>The sparrow has disadvantage on saving throws or ability checks made to perceive illusions (including invisible objects or creatures) and transparent windows.</description>
+		</sheet>
+	</element>
+	<element name="Peck" type="Companion Action" source="The Book of Fantasia Campaign Guide 2014" id="ID_BOF14_COMPANION_ACTION_SPARROW_PECK">
+		<description>
+			<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 0 piercing damage (minor annoyance). 1 piercing damage on a critical hit.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 0 piercing damage (minor annoyance). 1 piercing damage on a critical hit.</description>
+		</sheet>
+	</element>
+</elements>

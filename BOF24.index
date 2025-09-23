@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>The Book of Fantasia Campaign Guide 2014</name>
+		<description>The content from RJBPrime's Home game.</description>
+		<author url="https://github.com/rjbprime/aurora-elements">RJBPrimal - Aurora Elements</author>
+		<update version="0.0.1">
+			<file name="BOF14.index" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/BOF14.index" />
+		</update>
+	</info>
+	<files>
+		<!-- Source File -->
+		<file name="source-bof-2024.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2024/source-bof-2024.xml" />
+		<!-- 2024 Content Changes -->
+		<file name="2024-class-monk-bof-2024.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2024/2024-class-monk-bof-2024.xml" />
+		<file name="2024-class-paladin-bof-2024.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2024/2024-class-paladin-bof-2024.xml" />
+		<file name="2024-monk-way-of-swordsage-bof-2024.xml" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/bof-2024/2024-monk-way-of-swordsage-bof-2024.xml" />
+	</files>
+</index>

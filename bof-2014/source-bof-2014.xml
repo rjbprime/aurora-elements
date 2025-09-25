@@ -15,7 +15,7 @@
 		<setters>
 			<set name="abbreviation">BOF14</set>
 			<set name="url"></set>
-			<set name="image">https://raw.githack.com/rjbprime/aurora-elements/7683fe8e4da6f0ecfab75b1e89cec6f4a50f734b/The%20Book%20of%20Fantasia%20-%205E%20-%202025%20Campaign%20-%20Cover.png</set>
+			<set name="image">https://raw.githack.com/rjbprime/aurora-elements/main/The-Book-of-Fantasia-5E-2025-Campaign-Cover.jpg</set>
 			<set name="errata"></set>
 			<set name="author" abbreviation="RJB" url="">RJBPrime</set>
 			<set name="homebrew">true</set>

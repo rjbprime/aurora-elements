@@ -4,8 +4,8 @@
 		<name>The Book of Fantasia Campaign Guide 2014</name>
 		<description>The content from RJBPrime's Home game.</description>
 		<author url="https://github.com/rjbprime/aurora-elements">RJBPrimal - Aurora Elements</author>
-		<update version="0.0.2">
-			<file name="BOF24.index" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/BOF14.index" />
+		<update version="0.0.3">
+			<file name="BOF24.index" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/BOF24.index" />
 		</update>
 	</info>
 	<files>

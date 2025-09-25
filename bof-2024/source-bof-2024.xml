@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="source-bof-2024.xml" url="" />
+			<file name="source-bof-2024.xml" url="https://raw.githack.com/rjbprime/aurora-elements/main/bof-2024/source-bof-2024.xml" />
 		</update>
 	</info>
 	<element name="The Book of Fantasia Campaign Guide 2024" type="Source" source="Core" id="ID_BOF24_SOURCE">

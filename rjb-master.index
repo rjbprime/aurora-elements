@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>RJB Master Third Party Index</name>
+		<update version="0.0.1">
+			<file name="rjb-master.index" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/refs/heads/main/rjb-master.index" />
+		</update>
+	</info>
+	<files>
+		<file name="amellwinds-guide-to-monster-hunting.index" url="https://raw.githubusercontent.com/NotTheTom/dnd-monster-hunter/main/amellwinds-guide-to-monster-hunting.index" />
+		<file name="BOF1424.index" url="https://raw.githubusercontent.com/rjbprime/aurora-elements/master/BOF1424.index" />
+		<file name="Grim-Hollow-2025.index" url="https://raw.githubusercontent.com/Julitutu/Grim-Hollow/refs/heads/main/Grim%20Hollow%202025/Grim-Hollow-2025.index" />
+		<file name="Heliana.index" url="https://raw.githubusercontent.com/Julitutu/Heliana-s-Guide-to-Monster-Hunting/refs/heads/main/Heliana.index" />
+		<file name="kibblestasty.index" url="https://raw.githubusercontent.com/Shadowlinks/KibblesTasty-elements/main/kibblestasty.index" />
+		<file name="laserllama-clap.index" url="https://raw.githubusercontent.com/clapyourhands/laserllama-homebrew/main/laserllama-clap.index" />
+		<file name="foolsgold.index" url="https://raw.githubusercontent.com/ShadowLinks/fools-gold-elements/refs/heads/main/foolsgold.index" />
+		<file name="Griffon-s-Saddlebag-Book-1.index" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Griffon-s-Saddlebag/main/elements/Griffon-s-Saddlebag/Griffon-s-Saddlebag-Book-1.index" />
+		<file name="licensed-work.index" url="https://raw.githubusercontent.com/FreshRoyal/elements-licensedwork/master/licensed-work.index" />
+		<file name="taldorei-reborn.index" url="https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/taldorei-reborn.index" />
+		<file name="misc.index" url="https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/Miscellaneous/misc.index" />
+        <file name="kobold-press.index" url="https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/kobold-press.index" />
+		<file name="omeria.index" url="https://raw.githubusercontent.com/ShadowLinks/omeria-elements/main/omeria.index"/>
+		<file name="partnered.index" url="https://raw.githubusercontent.com/FreshRoyal/elements-partnered/master/partnered.index" />
+		<file name="pathfinder-5e.index" url="https://raw.githubusercontent.com/FreshRoyal/pathfinder5e/master/pathfinder-5e.index" />
+		<file name="portent-press.index" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-portent-press/main/portent-press.index" />
+		<file name="solasta.index" url="https://raw.githubusercontent.com/ShadowLinks/solasta-elements/main/solasta.index"/>
+		<file name="Steinhardts.index" url="https://raw.githubusercontent.com/Julitutu/Steinhardt-s-Guide-to-the-Eldritch-Hunt/refs/heads/main/Steinhardts.index" />
+		<file name="svilland.index" url="https://raw.githubusercontent.com/ShadowLinks/svilland-elements/main/svilland.index"/>
+		<file name="taldorei-reborn.index" url="https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/taldorei-reborn.index" />
+		<file name="the-elements-beyond.index" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Elements-Beyond/main/the-elements-beyond.index" />
+		<file name="valdas-spire-of-secrets.index" url="https://raw.githubusercontent.com/Tel0k/Aurora-Builder-Valdas-Spire-of-Secrets/main/elements/valdas-spire-of-secrets.index" />
+		<file name="featured-homebrew.index" url="https://raw.githubusercontent.com/FreshRoyal/elements-partnered/master/featured-homebrew.index" />
+		<file name="yorviings-arcane-grimoire.index" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Yorviings-Arcane-Grimoire/main/yorviings-arcane-grimoire.index" />
+		<file name="youtube.index" url="https://raw.githubusercontent.com/FreshRoyal/elements-youtube/master/youtube.index" />
+		<file name="dark-arts-players-companion.index" url="https://raw.githubusercontent.com/Saerbhreathach/DAPC-aurora/main/dark-arts-players-companion.index" />
+		<file name="DM-secret-weapon.index" url="https://raw.githubusercontent.com/Julitutu/DM-Secret-Weapons/refs/heads/main/DM-secret-weapon.index" />
+		<file name="Drakkenheim.index" url="https://raw.githubusercontent.com/Julitutu/Dungeons-of-Drakkenheim/refs/heads/main/Drakkenheim.index" />
+		<file name="Grim-Hollow.index" url="https://raw.githubusercontent.com/Julitutu/Grim-Hollow/refs/heads/main/Grim-Hollow.index" />
+	</files>
+</index>
